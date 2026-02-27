@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #65247B;
+    --secondary-color: #9956A5;
+    --background-color: #E5C5E1;
+    --text-color: #000000;
+    --font-family: 'Kodchasan', sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
+nav > a {
+    /*Change the Profile into a image*/
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
